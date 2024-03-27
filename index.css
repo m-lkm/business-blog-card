@@ -1,0 +1,127 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+    background-color: black;
+    /* border: solid;
+    border-color: red; */
+    justify-content: center;
+}   
+
+
+.card-background{
+    /* border: solid;
+    border-color: red; */
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+    background-image: linear-gradient(rgb(37, 36, 84), rgb(100, 47, 65));
+
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card{
+    /* background-color: rgb(37, 36, 84); */
+    /* background-color: rgb(100, 47, 65); */
+    /* background-image: linear-gradient(rgb(37, 36, 84), rgb(100, 47, 65)); */
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    margin:8px; /* border thickness */
+    background-color: rgb(200, 201, 203);
+    /* border: solid;
+    border-color: red; */
+    font-family: sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+
+    
+}
+
+.card>*{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.card > img{
+    width: 336px;
+    height: 152px;
+    /* border: solid;
+    border-color: orange; */
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.title{
+    /* border: solid;
+    border-color: purple; */
+    font-size: larger;
+    font-weight: bold;
+    flex-basis: 0;
+    margin-top: 16px;
+    margin-bottom: 6px;
+}
+
+.description{
+    /* border: solid;
+    border-color: pink; */
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.wrapper{
+    flex-direction: row;
+}
+
+.author{
+    /* border: solid; */
+    /* border-color: red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 0;
+}
+
+.author>img{
+    /* border: solid; */
+    /* border-color: salmon; */
+    flex-basis: 0;
+    margin-right: 20px;
+    transform: scaleX(-1);
+}
+
+.name-role{
+    display: flex;
+    flex-direction: column;
+    /* border: solid; */
+    /* border-color: green; */
+    justify-content: center;
+}
+
+.name-role>*{
+    /* border: solid; */
+    /* border-color: blue; */
+    margin:0;
+}
+
+.name{
+    font-size: large;
+    font-weight: bold;
+}
+
+.role{
+    font-style: italic;
+}
